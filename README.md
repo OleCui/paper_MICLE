@@ -1,6 +1,6 @@
 # paper_MICLE
 
-The source code of paper "Multi-view contrastive learning for Drug Repositioning on Heterogeneous Biological Networks".
+The source code of paper "Multi-view Contrastive Learning for Drug Repositioning on Heterogeneous Biological Networks".
 
 ## Requirements:
 -  Python 3.8.19
