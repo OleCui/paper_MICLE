@@ -1,6 +1,11 @@
 # paper_MICLE
 
-The source code of paper "Multi-view Contrastive Learning for Drug Repositioning on Heterogeneous Biological Networks".
+This is the PyTorch implementation for paper "Multi-view Contrastive Learning for Drug Repositioning on Heterogeneous Biological Networks".
+
+## Introduction
+This paper presents a novel Multi-view Contrastive Learning method for identifying underlying DDAs on biological networks (abbreviated as MICLE). MICLE consists of four crucial components, i.e., node representation learning, interview CL, intra-view CL and DDA predictor. The primary innovations lie in the effective characterization of graph heterogeneity and the design of two complementary CL objectives. To the best of our knowledge, it is the first time that graph heterogeneity is sufficiently characterized in the GCL paradigm devised for DDA prediction without resort to stochastic perturbation augmentation.
+
+<img src='MICLE_figure.png'>
 
 ## Requirements:
 -  Python 3.8.19
