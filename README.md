@@ -49,11 +49,15 @@ The introduction of each <code> py </code> file is as follows:
 - <i>parse_args.py</i>: The parameter settings.
 
 
-## Usage:
-- Download the datasets from [google drive](https://drive.google.com/drive/folders/1w9orlSgM_HlwGwaVWPLYgRqbjdQc7RCv)
+## How to Run the Code:
+Please firstly download the datasets and unzip the downloaded files. Next, create the <code>Datasets/</code> folder and move the unzipped datasets into this folder. The command to train MICLE on the B-dataset, C-dataset or F-dataset is as follows.
 
-- Creat a folder "Dataset"
-
-- Move the downloaded datasets to the "Dataset" folder
-
-- Execute python main.py --dataset = ["B-datset" or "C-dataset" or "F-dataset"]
+<ul>
+<li>B-dataset<pre><code>python main.py --dataset = B-dataset</code></pre>
+</li>
+<li>C-dataset<pre><code>python main.py --dataset = C-dataset</code></pre>
+</li>
+<li>F-dataset<pre><code>python main.py --dataset = F-dataset</code></pre>
+</li>
+</ul>
+</body></html>
