@@ -39,16 +39,14 @@ These datasets can be downloaded from [google drive](https://drive.google.com/dr
 
 ## Code Files:
 The introduction of each <code> py </code> file is as follows:
-- <i>contrastive_learning.py</i>: The implementation of inter-view contrastive learning.
+- <i>contrastive_learning.py</i>: The implementation of inter-view and intra-view contrastive learning.
 - <i>data_preprocessing.py</i>: The implementation of data preprocessing.
-- <i>GradientBalance.py</i>: The implementation of adaptive gradient balance.
 - <i>graph_transformer_layer.py</i>: The implementation of graph transformer layer.
 - <i>graph_transformer.py</i>: The implementation of basic graph transformer.
 - <i>metric.py</i>: The implementation of evaluation metrics.
-- <i>model.py</i>: The implementation of entire GCGB model.
+- <i>model.py</i>: The implementation of entire MICLE model.
 - <i>main.py</i>: The implementation of model training.
 - <i>parse_args.py</i>: The parameter settings.
-
 
 
 ## Usage:
